@@ -20,10 +20,13 @@ Diff: Diff, short for "difference", refers to the process of comparing two files
 
 <br/>
 To find the "diff" open command line interface within the directory and type
+
 ```bash
 python3 diff.py file1.txt file2.txt"
 ```
+
 The ouput will resemble this:
+
 ```bash
 * Hamlet: Do you see yonder cloud that's almost in shape of a camel?|Hamlet: Do you see the cloud over there that's almost the shape of a camel?
 * Polonius: By the mass, and 'tis like a camel, indeed.|Polonius: By golly, it is like a camel, indeed.
@@ -44,15 +47,19 @@ Patch: Patch refers to the process of applying changes to a file or piece of tex
 <br/>
 
 To find the "patch" open command line interface within the directory and type
+
 ```bash
 python3 patch.py -i diff.txt file2.txt"
 ```
+
 diff.txt contains the difference between file1 and file2, the -i connotation indicates that diff.txt is the difference file.
 After this command the the changes will be applied to the contents of file2.txt which will transform to resemble that of file1.txt.
 
 <h3> Error Handling </h3>
 If you get the error:
+
 ```bash
 Error: Unrecognized diff format
 ```
+
 It means you did not copy output from the diff.py properly.
