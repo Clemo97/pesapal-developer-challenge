@@ -22,7 +22,7 @@ Diff: Diff, short for "difference", refers to the process of comparing two files
 To find the "diff" open command line interface within the directory and type
 
 ```bash
-python3 diff.py file1.txt file2.txt"
+python3 diff.py file1.txt file2.txt
 ```
 
 The ouput will resemble this:
@@ -49,7 +49,7 @@ Patch: Patch refers to the process of applying changes to a file or piece of tex
 To find the "patch" open command line interface within the directory and type
 
 ```bash
-python3 patch.py -i diff.txt file2.txt"
+python3 patch.py -i diff.txt file2.txt
 ```
 
 diff.txt contains the difference between file1 and file2, the -i connotation indicates that diff.txt is the difference file.
