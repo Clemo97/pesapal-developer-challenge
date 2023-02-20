@@ -1,6 +1,6 @@
 # Pesapal Developer Challenge
 
-This is a solution for [The Pesapal Developer Challenge](https://pesapal.freshteam.com/jobs/2OU7qEKgG4DR/junior-developer-23) _Problem 2: A diff and a patch._, written in Python3.
+This is a solution for [The Pesapal Developer Challenge](https://pesapal.freshteam.com/jobs/2OU7qEKgG4DR/junior-developer-23) _Problem 2: A diff and a patch, written in Python3.
 
 ## Problem Statement
 
