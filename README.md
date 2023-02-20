@@ -82,6 +82,6 @@ The `diff.py` script takes in two strings a and b, and returns a unified string 
 
 The `patch.py` takes in a `fileA` and `dfii.txt`, and returns the newer version of the string after applying the patch. If the `revert` flag is set to True, the function instead returns the older version (`fileB`) of the file. The function parses the patch string and applies the changes to the input string accordingly, returning the updated string.
 
-The `patch.py`is implemented using the difflib.unified_diff function, which computes the differences between the two input strings using a **unified diff format**. The **apply_patch** function is implemented by parsing the patch string using regular expressions to extract information about the changes to be made, and then applying those changes to the input string.
+#Table of Contents
 
 Overall, this code provides a simple and lightweight way to compute and apply diffs and patches to text files.
