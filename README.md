@@ -77,6 +77,7 @@ The solution consists of 2 scripts:
 
 ```python
 def apply_patch(old_file: Path, new_file: Path, revert=True):
+##by deafult revert = False
 ```
 
 then `python3 patch.py fileA.txt diff.txt` will produce `fileA`.
