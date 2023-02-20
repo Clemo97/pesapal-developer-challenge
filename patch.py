@@ -11,7 +11,7 @@ _no_eol = "\ No newline at end of file"
 _hdr_pat = re.compile("^@@ -(\d+),?(\d+)? \+(\d+),?(\d+)? @@$")
 
 
-def apply_patch(old_file: Path, new_file: Path, revert=True):
+def apply_patch(old_file: Path, new_file: Path, revert=False):
   """
   Apply patch to string 's' to recover newer string.
   If revert is True, treat 's' as the newer string, recover older string.
