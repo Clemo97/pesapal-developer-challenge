@@ -1,0 +1,17 @@
+@@ -1,7 +1,7 @@
+-Hamlet: Do you see yonder cloud that's almost in shape of a camel?
+-Polonius: By the mass, and 'tis like a camel, indeed.
+-Hamlet: Methinks it is like a weasel.
+-Polonius: It is backed like a weasel.
+-Hamlet: Or like a whale?
+-Polonius: Very like a whale.
+--- Shakespeare
+\ No newline at end of file
++Clement: Do you see the cloud over there that's almost the shape of a camel?
++Polonius: By golly, it is like a camel, indeed.
++Clement: I think it looks like a weasel.
++Polonius: It is shaped like a weasel.
++Clement: Or like a whale?
++Polonius: It's totally like a whale.
++-- Miguna Miguna
+\ No newline at end of file
